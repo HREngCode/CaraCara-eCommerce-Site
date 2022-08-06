@@ -1,8 +1,13 @@
-/* *,*::after,*::before{}
+*,
+*::before,
+*::after{
+    margin: 0;
+    box-sizing: inherit;
+}
 
-html{}
-
-body{} */
+html{
+    box-sizing: border-box;
+}
 
 .header_container{
     height: 75px;
